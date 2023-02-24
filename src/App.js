@@ -1,8 +1,14 @@
+import React from 'react'
 import './index.css';
+
+import Navbar from './components/layout/Navbar'
 
 function App() {
   return (
-    <h1>Testando APP</h1>
+    <div>
+      <Navbar />
+      <h1>Testando APP</h1>
+    </div>
   );
 }
 

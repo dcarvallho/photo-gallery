@@ -1,0 +1,23 @@
+.navbar {
+    background-color: rgb(132, 132, 148);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 2rem;
+}
+
+.list ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    list-style: none;
+}
+
+.list li {
+    margin: 0 1.5rem;
+}
+
+.listSocialMidia {
+
+}

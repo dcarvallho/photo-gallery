@@ -1,9 +1,12 @@
+h1 {
+    font-size: 2.5rem;
+}
+
 .navbar {
-    background-color: rgb(132, 132, 148);
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 2rem;
+    margin: 2rem 5rem;
 }
 
 .list ul{
@@ -18,6 +21,13 @@
     margin: 0 1.5rem;
 }
 
-.listSocialMidia {
+.listSocialMidia ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
+.listSocialMidia ul li {
+    margin: 0 1rem;
 }

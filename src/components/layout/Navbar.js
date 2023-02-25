@@ -5,7 +5,7 @@ export default function Navbar() {
     return(
         <div className={style.navbar}>
             <div>   
-                <p>Galleria</p>
+                <h1>Galleria</h1>
             </div>
             <div className={style.list}>
                 <ul>
@@ -17,9 +17,26 @@ export default function Navbar() {
             </div>
             <div className={style.listSocialMidia}>
                 <ul>
-                    <li>Insta</li>
-                    <li>Whatsapp</li>
-                    <li>Facebook</li>
+                    <li>
+                        <a href='#'>
+                            I
+                        </a>
+                    </li>
+                    <li>
+                        <a href='#'>
+                            W
+                        </a>
+                    </li>
+                    <li>
+                        <a href='#'>
+                            F
+                        </a>
+                    </li>
+                    <li>
+                        <a href='#'>
+                            T
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>
